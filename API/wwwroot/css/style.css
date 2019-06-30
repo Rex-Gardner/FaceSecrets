@@ -1,0 +1,82 @@
+body {
+	margin: 0 auto;
+	padding: 0;
+	background-color: #2d92c7;
+}
+
+h1 {
+	font-family: "Helvetica", sans-serif;
+    font-weight: 500;
+    color: #fff;
+}
+
+#logo {
+	margin-left: 10%;
+}
+
+#container {
+	text-align: center;
+}
+
+#container h1 {
+	margin-top: 5%;
+	font-size: 72px;
+}
+
+input[type="submit"] {
+	border-width: 0px;
+	padding:0.46em 1.6em;
+	border-radius: 5px;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Helvetica', sans-serif;
+	font-weight: 300;
+	font-size: 1.5em;
+	color: #fff;
+	text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+	text-align:center;
+	text-transform: uppercase;
+	transition: all 0.15s;
+	background-color: #56c676;
+	border-bottom: 3px solid #2e8d51;
+	display: block;
+	margin: 0 auto;
+	width: 300px;
+}
+
+.form-row {
+	width: 300px;
+	margin: 30px auto;
+}
+
+._button {
+	padding:0.46em 1.6em;
+	border-radius: 5px;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Helvetica', sans-serif;
+	font-weight: 300;
+	font-size: 1.5em;
+	color: #fff;
+	text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+	text-align:center;
+	text-transform: uppercase;
+	transition: all 0.15s;
+	background-color: #56c676;
+	border-bottom: 3px solid #2e8d51;
+	display: block;
+	margin: 0 auto 20px;
+	width: 300px;
+}
+
+#description {
+	color: white;
+    font-size: 22pt;
+    font-family: "Courier new", sans-serif;
+    font-weight: 700;
+}
+
+._button:hover {
+	text-shadow: 0 0 2em rgba(255,255,255,1);
+	background-color: #66d285;
+}
